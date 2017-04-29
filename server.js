@@ -23,7 +23,7 @@ apiRouter(app);
 var htmlRouter = require('./app/routing/htmlRoutes.js');
 htmlRouter(app);
 
-
+//listen on port
 app.listen(PORT, function() {
 	console.log("Started app on " + PORT)
 })
